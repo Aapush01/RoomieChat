@@ -2,7 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 import io from "socket.io-client";
 import { nanoid } from "nanoid";
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect(import.meta.env.VITE_BASE_URL);
+
 
 function App() {
   const [message, setMessage] = useState('');
