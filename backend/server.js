@@ -6,8 +6,8 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "*",
-    methods: ["GET", "POST"],
+    origin: "https://roomie-chat.vercel.app", // frontend URL
+    methods: ["GET", "POST"]
   },
 });
 
