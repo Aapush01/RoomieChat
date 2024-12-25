@@ -143,7 +143,7 @@ function App() {
 
           {!currentRoom ? (
             <div className="space-y-4">
-              <div className="flex gap-4">
+              <div className="flex flex-col gap-4">
                 <input
                   type="text"
                   placeholder="Enter room name"
