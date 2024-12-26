@@ -45,12 +45,12 @@ Ensure you have the following installed:
 2. Install dependencies:
    ```bash
    # For backend
-   cd server
-   yarn install
+   cd backend
+   npm start
 
    # For frontend
-   cd ../client
-   yarn install
+   cd frontend
+   npm run dev
    ```
 
 3. Start MongoDB:
@@ -90,8 +90,8 @@ Ensure you have the following installed:
 
 ```
 roomiechat/
-├── client/       # Frontend code
-├── server/       # Backend code
+├── frontend/       # Frontend code
+├── backend/       # Backend code
 └── README.md     # Project documentation
 ```
 
